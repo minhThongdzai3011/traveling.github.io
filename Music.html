@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="Music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <script src="Music.js"></script>
+</head>
+<body>
+    <div class="background-overlay" style="width: 100%;"></div>
+        <header style="display: flex;">
+            <div class="part_1">
+                <div class="small_part1">
+                    <div class="a1">
+                        <a href="">
+                            <div class="a11">
+                                <i class="fa-solid fa-bars " id="text-white1"></i>
+                            </div>
+                        </a>
+                    </div >
+                    <div class="a2">
+                        <img src="https://music.youtube.com/img/on_platform_logo_dark.svg" alt="">
+                    </div>
+                </div>
+                <div style="width: 100%; height: 10px;"></div>
+                <div class="small_part2">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-solid fa-house" id="text-white"></i>
+                            </div>
+                            <div class="b2">
+                                <h3>Trang chủ</h3>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-regular fa-compass" id="text-white"></i>
+                            </div>
+                            <div class="b2">
+                                <h3>Khám phá</h3>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-regular fa-bookmark" id="text-white"></i>
+                            </div>
+                            <div class="b2">
+                                <h3>Thư viện</h3>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-solid fa-arrow-up-from-bracket" id="text-white"></i>
+                            </div>
+                            <div class="b2">
+                                <h3>Nâng cấp</h3>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div style="width: 100%; height: 20px;"></div>
+                <div style="display: flex;
+                            justify-content: center;
+                            align-items: center;">
+                    <hr >
+                </div>
+                <div style="width: 100%; height: 20px;"></div>
+                <div class="small_part4">
+                    <button>
+                        <a href="">
+                            <div class="c1">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="c2">
+                                <p>Danh sách phát mới</p>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div style="width: 100%; height: 10px;"></div>
+                <div id="small_part5">
+                    <button>
+                        <a href="">
+                            <div class="d1">
+                                <p>Nhạc đã thích</p>
+                            </div>
+                            <div style="width: 100%; height: 5px;"></div>
+                            <div class="d2">
+                                <i class="fa-solid fa-thumbtack" style="font-size: 10px; display: flex; align-items: center;"></i>
+                                <p>Dang sách tự động</p>
+                            </div>
+                        </a>
+                        <div id="d3">
+                            <div id="dd3">
+                                <i class="fa-solid fa-circle-chevron-right" id="d33"></i>
+                            </div>
+                        </div>
+                    </button>
+                    
+                </div>
+                <div id="small_part51">
+                    <button>
+                        <a href="">
+                            <div class="d1">
+                                <p>Nhạc của tôi</p>
+                            </div>
+                            <div style="width: 100%; height: 5px;"></div>
+                            <div class="d2">
+                                <i class="fa-solid fa-heart" style="font-size: 10px; display: flex; align-items: center;"></i>
+                                <p>Dang sách phát</p>
+                            </div>
+                        </a>
+                        <div id="d3">
+                            <div id="dd3">
+                                <i class="fa-solid fa-circle-chevron-right" id="d331"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div id="small_part52">
+                    <button>
+                        <a href="">
+                            <div class="d1">
+                                <p>Tuyển tập podcast</p>
+                            </div>
+                            <div style="width: 100%; height: 5px;"></div>
+                            <div class="d2">
+                                <i class="fa-solid fa-list" style="font-size: 10px; display: flex; align-items: center;"></i>
+                                <p>Dang sách tự động</p>
+                            </div>
+                        </a>
+                        <div id="d3">
+                            <div id="dd3">
+                                <i class="fa-solid fa-circle-chevron-right" id="d332"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div id="small_part53">
+                    <button>
+                        <a href="">
+                            <div class="d1">
+                                <p>Nhạc đã xóa</p>
+                            </div>
+                            <div style="width: 100%; height: 5px;"></div>
+                            <div class="d2">
+                                <i class="fa-solid fa-trash-can" style="font-size: 10px; display: flex; align-items: center;"></i>
+                                <p>Kiểm tra nhạc</p>
+                            </div>
+                        </a>
+                        <div id="d3">
+                            <div id="dd3">
+                                <i class="fa-solid fa-circle-chevron-right" id="d333"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="part_1_none">
+                <div class="small_part1">
+                    <div class="a1">
+                        <a href="">
+                            <div class="a11">
+                                <i class="fa-solid fa-bars " id="text-white1"></i>
+                            </div>
+                        </a>
+                    </div >
+                </div>
+                <div style="width: 100%; height: 10px;"></div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-solid fa-house" id="text-white"></i>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-regular fa-compass" id="text-white"></i>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-regular fa-bookmark" id="text-white"></i>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                <div class="small_part3">
+                    <button>
+                        <a href="">
+                            <div class="b1">
+                                <i class="fa-solid fa-arrow-up-from-bracket" id="text-white"></i>
+                            </div>
+                        </a>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="part_2">
+                <div style="display: flex;">
+                    <div class="small2_part1">
+                        <div class="input-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Tìm bài hát, đĩa nhạc, nghệ sĩ, podcast " class="background-gold">
+                        </div>
+                    </div>
+                    <div class="small2_part2">
+                    <div id="icon1">
+                        <i class="fa-solid fa-signal " ></i>
+                    </div>
+                    <div id="icon3">
+                        <i class="fa-solid fa-wifi" ></i>
+                    </div>
+                    </div>
+                    <div class="small3_part2">
+                    <div id="icon2">
+                        <i class="fa-solid fa-circle-user " id="icon22"></i>
+                    </div>
+                    <div id="text">
+                        <p>Bạn chưa đăng nhập</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="part_3">
+                    <div style="display: flex; width: 100%; height: 100px; align-items: center;">
+                        <div class="idea1">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Thư giãn</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea2">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Trên đường đi làm</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea3">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Dễ ngủ</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea4">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Nạp năng lượng</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea5">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Buồn</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea6">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Vui tươi</p>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="idea7">
+                            <a href="" style="width: 100%; height: 35px;  text-decoration: none;   
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;" >
+                                <button style="background-color: transparent; border: none;">
+                                    <p style="color: white;">Lãng mạng</p>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="part_4">
+                    <div style="display: flex; width: 100%; height: 30px;">
+                        <p style="color: silver; margin-left: 100px; font-size: 13px;" >BẮT ĐẦU ĐÀI PHÁT BẰNG MỘT BÀI HÁT</p>
+                    </div>
+                </div>
+                <div class="part_5">
+                    <div class="part_5_1">
+                        <p style="color: white; margin-left: 100px;" ><b>Chọn nhanh đài phát</b></p>
+                    </div>
+                    <div style="width: 100px; height: 30px;">
+                        <a style="text-decoration: none;" href="">
+                            <button class="full">
+                                <p>Phát tất cả</p>
+                            </button>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="part_6" id="p6">
+                        <div class="part6_1 item" style="width: 100px; height: 100px; background-color: red;">
+                            <p>ảnh 1</p>
+                        </div>
+                        <div class="part6_1 item" style="width: 100px; height: 100px; background-color: silver;">
+                            <p>ảnh 2</p>
+                        </div>
+                        <div class="part6_1 item" style="width: 100px; height: 100px; background-color: blue;">
+                            <p>ảnh 3</p>
+                        </div>
+                        <div class="part6_1 item" style="width: 100px; height: 100px; background-color: gold;">
+                            <p>ảnh 4</p>
+                        </div>
+                        <div class="part5_2">
+                            <div>
+                                <button id="prev">
+                                    <div>
+                                        <i class="fa-solid fa-chevron-left color"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <div style="width: 5px; height: 30px;"></div>
+                            <div>
+                                <button id="next">
+                                    <div>
+                                        <i class="fa-solid fa-chevron-right color"></i>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                <div>
+                    <audio id="audio-player" controls></audio>
+                </div>
+            </div>
+    
+        </header>
+
+</body>
+</html>
